@@ -34,7 +34,7 @@ This is a repository designed to evaluate the effectiveness of Audio Caption. Mo
    # {"bleu_1": tensor(0.4278), "bleu_2": ..., ...}
    ```
 
-4. Evaluate DCASE2024 metrics
+4. Evaluate DCASE2024 metrics:
     To compute metrics for the DCASE2023 challenge, just set the argument `metrics="dcase2024"` in `evaluate` function call.
 
     ```python
