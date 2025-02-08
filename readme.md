@@ -14,7 +14,7 @@ This is a repository designed to evaluate the effectiveness of Audio Caption. Mo
 2. Download the required weight files:
 
    ```bash
-   python ./audio_caption_metrics/download.py
+   python -m audio_caption_metrics.download
    ```
 
 3. Evaluate default metrics:

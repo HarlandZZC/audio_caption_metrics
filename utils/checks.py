@@ -120,7 +120,6 @@ def _get_java_version(java_path: str) -> str:
 def _check_java_version(version_str: str, min_major: int, max_major: int) -> bool:
     version_str = clean_java_version(version_str)
     version = Version(version_str)
-    from IPython import embed; embed(); import os; os._exit(0)
 
     if version.major == 1 and version.minor <= 8:
         # java <= 8 use versioning "1.MAJOR.MINOR" and > 8 use "MAJOR.MINOR.MICRO"
