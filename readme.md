@@ -35,7 +35,7 @@ This is a repository designed to evaluate the effectiveness of Audio Caption. Mo
    ```
 
 4. Evaluate DCASE2024 metrics:
-    To compute metrics for the DCASE2023 challenge, just set the argument `metrics="dcase2024"` in `evaluate` function call.
+    To compute metrics for the DCASE2024 challenge, just set the argument `metrics="dcase2024"` in `evaluate` function call.
 
     ```python
     corpus_scores, _ = evaluate(candidates, mult_references, metrics="dcase2024")
