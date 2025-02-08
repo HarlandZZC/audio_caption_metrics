@@ -1,5 +1,4 @@
-# Audio Caption Evaluation Repository
-
+# Audio Caption Evaluation
 This is a repository designed to evaluate the effectiveness of Audio Caption. Most of the code is adapted from [https://github.com/Labbeti/aac-metrics.git](https://github.com/Labbeti/aac-metrics.git). A big thanks to them!
 
 ## Usage Instructions
